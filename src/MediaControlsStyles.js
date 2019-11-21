@@ -6,6 +6,8 @@ import { StyleSheet } from 'react-native';
 export default StyleSheet.create({
   container: {
     position: 'absolute',
+    borderTopLeftRadius: 20,
+    borderTopRightRadius: 20,
     flex: 1,
     paddingHorizontal: 20,
     paddingVertical: 13,
